@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learnable Dev"
+  short_description: "Learn while building with safer AI workflows"
+  default_prompt: "Use $learnable-dev to keep AI-assisted engineering explainable, learnable, and safety-checked."
