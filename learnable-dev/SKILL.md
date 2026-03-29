@@ -1,60 +1,71 @@
 ---
 name: learnable-dev
-description: Use when doing meaningful AI-assisted software development that should preserve project control, technical understanding, safe working habits, explainable decisions, and learnable implementation notes. Trigger for architecture changes, schema or pipeline changes, security-sensitive work, or any feature work that should leave behind durable technical understanding instead of code alone.
+description: Use when the user wants help creating or maintaining development-principle docs, learning templates, safety checklists, explainable engineering notes, or AI-assisted development workflows that preserve project control, technical understanding, and safe habits. Trigger especially when the work should produce reusable documents, templates, or guidance rather than code alone.
 ---
 
 # learnable-dev
 
-Use this skill when the work should leave behind not just code, but also understanding, safety checks, and a durable decision trail.
+Use this skill when the user wants help turning AI-assisted development concerns into durable documents, templates, and workflows.
 
-## Core Goals
+This skill is not tied to one record format or one repository style. Its main purpose is to help the user:
 
-- Keep project control with the human, not the model.
-- Avoid fragile vibe-coded changes that are hard to explain later.
-- Leave technical understanding behind after meaningful work.
-- Record important decisions in a canonical format.
-- Keep Obsidian-friendly notes updated when the project uses Obsidian.
+- keep project control while using AI
+- learn while building instead of only shipping code
+- create explainable engineering docs and templates
+- reduce vibe-coding and safety risks
+- leave behind reusable development habits
 
-## Workflow
+## Core Behavior
 
-1. Before implementation, identify the affected project area in the workspace docs if they exist.
-2. For meaningful work, read:
-   - `references/learning-playbook.md`
-   - `references/risk-checklist.md`
-3. Decide whether the task crosses a decision-record threshold.
-4. If the threshold is crossed:
-   - create or update a canonical decision record
-   - render a readable summary when useful
-   - create an Obsidian-friendly companion note when the workspace uses Obsidian
-5. After meaningful implementation, leave a short technical note using `references/tech-note-template.md`.
-6. Report validation clearly:
-   - what was tested
-   - what was not tested
-   - what still looks risky
+When the task is about creating principles, workflows, templates, or reusable engineering guidance:
 
-## Repository Hints
+1. If the user did not specify language, ask first whether they want Korean or English.
+2. Identify the output type:
+   - development principles doc
+   - learning playbook
+   - tech note template
+   - risk checklist
+   - operating guide
+   - role split / ownership guide
+3. Prefer creating lightweight, reusable docs over one-off chat answers.
+4. Keep the guidance practical and repeatable.
+5. If the repository already uses docs, records, or Obsidian notes, adapt to that structure instead of forcing a new one.
 
-When the current repository already uses these paths, prefer them:
+## Default Workflow
 
-- `docs/` for design and planning
-- `.ai/records/decisions` for canonical decision records
-- `.ai/records/reports` for readable summaries
-- `docs/records` for Obsidian companion notes
-- `docs/learning` for learning notes and templates
+1. Clarify the target document type and language.
+2. Read `references/core-principles.md`.
+3. Read only the extra reference files needed for the requested output.
+4. Draft the document in a reusable form:
+   - concise principles
+   - checklist
+   - template
+   - operating loop
+5. Make the output usable immediately in a real project.
 
-If these paths do not exist, adapt to the repository instead of forcing them.
+## What This Skill Should Help Create
+
+- AI-assisted development principles
+- project operating rules
+- skill-growth playbooks
+- interview-level understanding prompts
+- technical note templates
+- vibe-coding risk checklists
+- implementation review checklists
+- ownership / human-vs-AI responsibility guides
 
 ## Guardrails
 
-- Do not treat AI output as correct until you can explain it.
-- Do not add dependencies without stating why they are needed.
-- Do not change critical flows without checking the risk checklist.
-- Do not leave major decisions only in chat context.
-- Do not hide incomplete validation.
+- Do not assume Mimir, Obsidian, or any specific system unless the repository already uses it.
+- Do not turn every request into a heavy process document.
+- Do not produce abstract philosophy without concrete workflow.
+- Do not optimize for speed alone when the user is asking for understanding and control.
+- Do not leave the user with only advice when a reusable template or document would help more.
 
 ## Load References As Needed
 
-- Read `references/record-thresholds.md` when deciding whether a change deserves a canonical record.
-- Read `references/learning-playbook.md` when the user wants skill growth, clearer understanding, or reusable technical learning.
-- Read `references/risk-checklist.md` before high-impact AI-assisted changes.
-- Read `references/tech-note-template.md` when leaving behind a short learning note after meaningful work.
+- Read `references/core-principles.md` for the main philosophy behind project control, explainability, and learning while building.
+- Read `references/language-and-output.md` when deciding how to ask about Korean vs English and how to shape the output.
+- Read `references/learning-playbook.md` when the user wants skill growth and understanding-oriented workflows.
+- Read `references/risk-checklist.md` when the user wants safety, security, and vibe-coding risk guidance.
+- Read `references/tech-note-template.md` when the user wants reusable feature-level technical note formats.

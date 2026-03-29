@@ -1,4 +1,4 @@
 interface:
   display_name: "Learnable Dev"
-  short_description: "Learn while building with safer AI workflows"
-  default_prompt: "Use $learnable-dev to keep AI-assisted engineering explainable, learnable, and safety-checked."
+  short_description: "Create reusable docs for AI-assisted engineering"
+  default_prompt: "Use $learnable-dev to create reusable engineering docs, templates, and workflows in Korean or English."

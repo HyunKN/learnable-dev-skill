@@ -19,4 +19,12 @@ Use this checklist before or during meaningful AI-assisted development.
 - Can the change be explained clearly?
 - What could fail if this is wrong?
 - Is validation strong enough for the change size?
-- Should this become a decision record?
+- Does this need to be documented as a decision, note, or operating rule?
+
+## Vibe-Coding Smells
+
+- AI suggestions were accepted without comparison.
+- The structure looks clever but is hard to explain.
+- External dependencies were added without a clear need.
+- The feature works, but no one wrote down why this version was chosen.
+- The team keeps saying “we will clean it up later.”
