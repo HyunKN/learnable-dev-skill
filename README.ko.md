@@ -1,6 +1,6 @@
 # learnable-dev-skill
 
-English version: [README.md](README.md)
+[English](README.md) | 한국어
 
 AI 보조 개발 과정에서 프로젝트 통제권, 기술적 이해, 학습, 안전성에 대한 고민을 재사용 가능한 문서, 템플릿, 운영 원칙으로 바꾸도록 돕는 Codex 스킬입니다. 코드만 남기는 개발이 아니라, 설명 가능한 결정과 학습 가능한 구현 습관, 실전적인 엔지니어링 가이드를 남길 수 있게 해줍니다.
 

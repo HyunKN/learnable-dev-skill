@@ -1,6 +1,6 @@
 # learnable-dev-skill
 
-Korean version: [README.ko.md](README.ko.md)
+English | [한국어](README.ko.md)
 
 A reusable Codex skill for AI-assisted development that helps users turn their concerns about control, understanding, learning, and safety into reusable documents, templates, and workflows. Instead of leaving behind only code, it helps create explainable decisions, learnable implementation habits, and practical engineering guidance.
 
