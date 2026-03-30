@@ -8,7 +8,7 @@ A reusable Codex skill for AI-assisted development that helps users turn their c
 
 - development principles docs
 - learning playbooks
-- tech-note templates
+- tech-decision study note templates
 - vibe-coding risk checklists
 - explainable engineering workflows
 
@@ -30,12 +30,32 @@ learnable-dev/
   agents/
     openai.yaml
   references/
-    core-principles.md
-    language-and-output.md
-    learning-playbook.md
-    risk-checklist.md
-    tech-note-template.md
+    principles-project-control-and-explainable-ai-use.md
+    guide-language-selection-and-reusable-output.md
+    playbook-learning-while-building.md
+    checklist-ai-assisted-development-risks.md
+    template-tech-decision-study-note.md
 ```
+
+### Naming Pattern
+
+For reusable reference docs under `references/`, prefer names that show the document role before anything else.
+
+- principles docs: `principles-...`
+- usage guides: `guide-...`
+- learning docs: `playbook-...`
+- checklists: `checklist-...`
+- templates: `template-...`
+
+For project-specific records, prefer names that immediately show when the decision happened and what it was about.
+
+- decision records: `decision-YYYY-MM-DD-what-was-decided.md`
+- study notes: `tech-note-YYYY-MM-DD-what-we-learned.md`
+
+Examples:
+
+- `decision-2026-03-30-adopt-react-query.md`
+- `tech-note-2026-03-30-why-we-chose-react-query.md`
 
 ### Install
 

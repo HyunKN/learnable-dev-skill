@@ -1,4 +1,4 @@
-# Language and Output
+# Guide - Language Selection and Reusable Output
 
 ## Language Rule
 

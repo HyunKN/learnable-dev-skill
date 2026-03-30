@@ -1,4 +1,4 @@
-# Learning Playbook
+# Playbook - Learning While Building
 
 ## Goal
 

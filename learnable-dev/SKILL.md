@@ -23,18 +23,20 @@ When the task is about creating principles, workflows, templates, or reusable en
 2. Identify the output type:
    - development principles doc
    - learning playbook
-   - tech note template
+   - tech-decision study note template
    - risk checklist
    - operating guide
    - role split / ownership guide
 3. Prefer creating lightweight, reusable docs over one-off chat answers.
 4. Keep the guidance practical and repeatable.
-5. If the repository already uses docs, records, or Obsidian notes, adapt to that structure instead of forcing a new one.
+5. Choose filenames that reveal the document role at a glance.
+6. For project-specific decision or study notes, include the date and topic in the filename.
+7. If the repository already uses docs, records, or Obsidian notes, adapt to that structure instead of forcing a new one.
 
 ## Default Workflow
 
 1. Clarify the target document type and language.
-2. Read `references/core-principles.md`.
+2. Read `references/principles-project-control-and-explainable-ai-use.md`.
 3. Read only the extra reference files needed for the requested output.
 4. Draft the document in a reusable form:
    - concise principles
@@ -49,7 +51,7 @@ When the task is about creating principles, workflows, templates, or reusable en
 - project operating rules
 - skill-growth playbooks
 - interview-level understanding prompts
-- technical note templates
+- tech-decision study note templates
 - vibe-coding risk checklists
 - implementation review checklists
 - ownership / human-vs-AI responsibility guides
@@ -64,8 +66,8 @@ When the task is about creating principles, workflows, templates, or reusable en
 
 ## Load References As Needed
 
-- Read `references/core-principles.md` for the main philosophy behind project control, explainability, and learning while building.
-- Read `references/language-and-output.md` when deciding how to ask about Korean vs English and how to shape the output.
-- Read `references/learning-playbook.md` when the user wants skill growth and understanding-oriented workflows.
-- Read `references/risk-checklist.md` when the user wants safety, security, and vibe-coding risk guidance.
-- Read `references/tech-note-template.md` when the user wants reusable feature-level technical note formats.
+- Read `references/principles-project-control-and-explainable-ai-use.md` for the main philosophy behind project control, explainability, and learning while building.
+- Read `references/guide-language-selection-and-reusable-output.md` when deciding how to ask about Korean vs English and how to shape the output.
+- Read `references/playbook-learning-while-building.md` when the user wants skill growth and understanding-oriented workflows.
+- Read `references/checklist-ai-assisted-development-risks.md` when the user wants safety, security, and vibe-coding risk guidance.
+- Read `references/template-tech-decision-study-note.md` when the user wants reusable feature-level technical decision note formats.

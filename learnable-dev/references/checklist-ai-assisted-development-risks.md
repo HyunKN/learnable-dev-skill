@@ -1,4 +1,4 @@
-# Risk Checklist
+# Checklist - AI-Assisted Development Risks
 
 Use this checklist before or during meaningful AI-assisted development.
 

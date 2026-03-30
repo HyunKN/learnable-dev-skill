@@ -8,7 +8,7 @@ AI 보조 개발 과정에서 프로젝트 통제권, 기술적 이해, 학습, 
 
 - 개발 원칙 문서
 - 학습 플레이북
-- 기술 노트 템플릿
+- 기술 결정 학습 노트 템플릿
 - 바이브 코딩 리스크 체크리스트
 - 설명 가능한 엔지니어링 워크플로
 
@@ -30,12 +30,32 @@ learnable-dev/
   agents/
     openai.yaml
   references/
-    core-principles.md
-    language-and-output.md
-    learning-playbook.md
-    risk-checklist.md
-    tech-note-template.md
+    principles-project-control-and-explainable-ai-use.md
+    guide-language-selection-and-reusable-output.md
+    playbook-learning-while-building.md
+    checklist-ai-assisted-development-risks.md
+    template-tech-decision-study-note.md
 ```
+
+## 제목 규칙
+
+`references/` 아래의 재사용 참고문서는 날짜보다 역할이 먼저 보이도록 이름을 짓는 편이 좋습니다.
+
+- 원칙 문서: `principles-...`
+- 사용 가이드: `guide-...`
+- 학습 문서: `playbook-...`
+- 체크리스트: `checklist-...`
+- 템플릿: `template-...`
+
+실제 프로젝트에서 남기는 기록 문서는 날짜와 결정 주제가 바로 보이도록 분리하는 편이 좋습니다.
+
+- 결정 기록: `decision-YYYY-MM-DD-what-was-decided.md`
+- 학습 노트: `tech-note-YYYY-MM-DD-what-we-learned.md`
+
+예시:
+
+- `decision-2026-03-30-adopt-react-query.md`
+- `tech-note-2026-03-30-why-we-chose-react-query.md`
 
 ## 설치
 

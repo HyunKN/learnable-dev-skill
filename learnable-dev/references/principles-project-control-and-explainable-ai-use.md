@@ -1,4 +1,4 @@
-# Core Principles
+# Principles - Project Control and Explainable AI Use
 
 ## Good AI Use Is Not About Maximum Automation
 
