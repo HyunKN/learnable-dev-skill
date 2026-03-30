@@ -8,6 +8,7 @@ A reusable Codex skill for AI-assisted development that helps users turn their c
 
 - development principles docs
 - learning playbooks
+- chat insight capture guides
 - tech-decision study note templates
 - vibe-coding risk checklists
 - explainable engineering workflows
@@ -18,6 +19,7 @@ This skill helps the agent:
 
 - ask whether the output should be in Korean or English when the user did not specify a language
 - create reusable development-principle docs
+- preserve reusable chat insights as project knowledge
 - create learning templates and safety checklists
 - create explainable engineering notes and operating guides
 - support safer, more understandable AI-assisted workflows
@@ -32,6 +34,7 @@ learnable-dev/
   references/
     principles-project-control-and-explainable-ai-use.md
     guide-language-selection-and-reusable-output.md
+    guide-chat-insight-capture.md
     playbook-learning-while-building.md
     checklist-ai-assisted-development-risks.md
     template-tech-decision-study-note.md
@@ -50,11 +53,13 @@ For reusable reference docs under `references/`, prefer names that show the docu
 For project-specific records, prefer names that immediately show when the decision happened and what it was about.
 
 - decision records: `decision-YYYY-MM-DD-what-was-decided.md`
+- insight records: `insight-YYYY-MM-DD-what-became-clear.md`
 - study notes: `tech-note-YYYY-MM-DD-what-we-learned.md`
 
 Examples:
 
 - `decision-2026-03-30-adopt-react-query.md`
+- `insight-2026-03-30-document-title-clarity.md`
 - `tech-note-2026-03-30-why-we-chose-react-query.md`
 
 ### Install

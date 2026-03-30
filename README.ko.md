@@ -8,6 +8,7 @@ AI 보조 개발 과정에서 프로젝트 통제권, 기술적 이해, 학습, 
 
 - 개발 원칙 문서
 - 학습 플레이북
+- 채팅 인사이트 기록 가이드
 - 기술 결정 학습 노트 템플릿
 - 바이브 코딩 리스크 체크리스트
 - 설명 가능한 엔지니어링 워크플로
@@ -18,6 +19,7 @@ AI 보조 개발 과정에서 프로젝트 통제권, 기술적 이해, 학습, 
 
 - 언어가 정해지지 않았다면 먼저 한국어/영문 중 무엇으로 만들지 물어보기
 - 재사용 가능한 개발 원칙 문서 만들기
+- 대화에서 나온 재사용 가능한 인사이트를 프로젝트 지식으로 남기기
 - 학습 템플릿과 안전성 체크리스트 만들기
 - 설명 가능한 엔지니어링 노트와 운영 가이드 만들기
 - AI를 더 안전하고 이해 가능하게 쓰는 워크플로를 지원하기
@@ -32,6 +34,7 @@ learnable-dev/
   references/
     principles-project-control-and-explainable-ai-use.md
     guide-language-selection-and-reusable-output.md
+    guide-chat-insight-capture.md
     playbook-learning-while-building.md
     checklist-ai-assisted-development-risks.md
     template-tech-decision-study-note.md
@@ -50,11 +53,13 @@ learnable-dev/
 실제 프로젝트에서 남기는 기록 문서는 날짜와 결정 주제가 바로 보이도록 분리하는 편이 좋습니다.
 
 - 결정 기록: `decision-YYYY-MM-DD-what-was-decided.md`
+- 인사이트 기록: `insight-YYYY-MM-DD-what-became-clear.md`
 - 학습 노트: `tech-note-YYYY-MM-DD-what-we-learned.md`
 
 예시:
 
 - `decision-2026-03-30-adopt-react-query.md`
+- `insight-2026-03-30-document-title-clarity.md`
 - `tech-note-2026-03-30-why-we-chose-react-query.md`
 
 ## 설치
